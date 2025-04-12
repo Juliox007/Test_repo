@@ -1,4 +1,4 @@
-name: CI
+name: simple flow_CI
 
 on:
   push:
