@@ -27,3 +27,7 @@ jobs:
         run: uname -r 
       - name: OS version
         run: cat /etc/os-release
+      - name: create a file
+        run: touch bolo
+      - name: write a file
+        run: echo " I love python " > bolo
