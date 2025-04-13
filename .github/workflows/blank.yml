@@ -35,3 +35,5 @@ jobs:
         run: cat bolo
       - name: check file permission
         run: ls -ltra bolo
+      - name: Modify file permission
+        run: chmod u+x bolo
