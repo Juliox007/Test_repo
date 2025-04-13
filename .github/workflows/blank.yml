@@ -37,3 +37,5 @@ jobs:
         run: ls -ltra bolo
       - name: Modify file permission
         run: chmod u+x bolo
+      - name: check file permission again
+        run: ls -ltra bolo
