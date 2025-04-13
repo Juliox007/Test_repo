@@ -39,3 +39,12 @@ jobs:
         run: chmod u+x bolo
       - name: check file permission again
         run: ls -ltra bolo
+        #!/bin/bash
+      - name: start date
+        run: echo "Starting at:$(date)"
+      - name: who is logged in ?
+
+        run: echo "WHO"
+
+      - name: Finish time
+        run: echo "Finishing at:$(date)"
