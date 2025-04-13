@@ -33,3 +33,5 @@ jobs:
         run: echo " I love python " > bolo
       - name: Display a file content
         run: cat bolo
+      - name: check file permission
+        run: ls -ltra bolo
